@@ -13,7 +13,14 @@ h1 {
     padding-top: 10px;
     margin-bottom: 0;
     font-family: 'Sacramento', cursive;
-    font-size: xxx-large;
+    font-size: 90px;
+    color: #75daad;
+}
+h2{
+  color: #11999E;
+}
+h3{
+  color: #11999E;
 }
 p{
   margin-top: 5px;
@@ -21,14 +28,24 @@ p{
   padding-top:10px;
   padding-bottom: 10px;
 }
+a{
+  color: #11999E;
+}
 
 /* ************************ Class Selector ************************************* */
+.sub{
+  color:#2a7886;
+}
 .top-container{
   background-color:#ccedd2;
   position: relative;
   padding-top:0;
   top: 30px;
   padding-bottom: 5px;
+}
+.middle-container{
+  position: relative;
+  bottom: 60px;
 }
 .profile-pic{
     height: 200px;
@@ -40,14 +57,14 @@ p{
     width: 300px;
     position: relative;
     left: 300px;
-    top: 30px;
+    top: 35px;
 }
 .bottom-cloud{
-  height: 80px;
-  width:250px;
-  left: 150px;
-  position: absolute;
-  top: 210px;
+      height: 80px;
+      width: 250px;
+      position: relative;
+      top: -10px;
+      right: 500px;
 }
 .skills-img{
   height: 200px;
@@ -61,7 +78,11 @@ p{
 /* ************************************* Id Selector  *********************  */
 #hello{
   font-family: 'Sacramento', cursive;
-  font-size: xx-large;
+  font-size: 30px;
   margin-top: 10px;
   margin-bottom: 5px;
+}
+#desc{
+  font-family: 'Cookie', cursive;
+  font-size: 18px;
 }
