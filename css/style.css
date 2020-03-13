@@ -29,7 +29,12 @@ p{
   padding-bottom: 10px;
 }
 a{
-  color: #11999E;
+  color: #235952;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
 }
 
 /* ************************ Class Selector ************************************* */
@@ -50,7 +55,7 @@ a{
 .bottom-container{
   background-color: #66BFBF;
   line-height: 2;
-  padding-top: 20px;
+  padding: 50px 0 30px 0;
 }
 .profile-pic{
     width: 15%;
@@ -79,7 +84,7 @@ a{
 .skills-img{
   width: 20%;
   border-radius: 100%;
-  padding: 10px;
+
 }
 .phone{
   height: 150px;
@@ -137,4 +142,8 @@ a{
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+.term{
+  font-size: .7em;
+  color:#EAF6F6;
 }
